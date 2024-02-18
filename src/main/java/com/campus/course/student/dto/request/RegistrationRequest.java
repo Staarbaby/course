@@ -1,6 +1,6 @@
 package com.campus.course.student.dto.request;
 
-import com.campus.course.student.exception.BedRequestException;
+import com.campus.course.base.exception.BedRequestException;
 import lombok.Builder;
 import lombok.Getter;
 

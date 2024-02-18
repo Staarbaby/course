@@ -1,11 +1,10 @@
 package com.campus.course.student.controller;
 
-import com.campus.course.base.routes.BaseRoutes;
 import com.campus.course.student.dto.request.EditStudentRequest;
 import com.campus.course.student.dto.request.RegistrationRequest;
 import com.campus.course.student.dto.response.StudentResponse;
 import com.campus.course.student.entity.StudentEntity;
-import com.campus.course.student.exception.BedRequestException;
+import com.campus.course.base.exception.BedRequestException;
 import com.campus.course.student.exception.StudentAlreadyExistException;
 import com.campus.course.student.exception.StudentNotFoundException;
 import com.campus.course.student.repository.StudentRepository;
